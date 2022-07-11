@@ -1,0 +1,246 @@
+    1  cd documents
+    2  ls
+    3  cd git-practice
+    4  ls
+    5  find / -name *.pub
+    6  ssh-keygen -t rsa -a 2048
+    7  cd ../..
+    8  pwd
+    9  cd .ssh
+   10  ls
+   11  cat id_rsa.pub
+   12  git remote add origin git@github.com:pathakswapnil86/myTest.git
+   13  cd ..
+   14  cd documents
+   15  ls
+   16  cd git-practice
+   17  git remote add origin git@github.com:pathakswapnil86/myTest.git
+   18  git remote -v
+   19  git push origin master
+   20  git push -f origin master
+   21  git remote add origin https://github.com/pathakswapnil86/myTest.git
+   22  git remote remove origin
+   23  git remote add origin https://github.com/pathakswapnil86/myTest.git
+   24  git remote -v
+   25  git push origin master
+   26  git status
+   27  touch xyz.txt
+   28  git add .
+   29  git commit
+   30  git commit -m "test message"
+   31  git push origin master
+   32  git show-ref
+   33  git push origin HEAD:master
+   34  cd document
+   35  cd documents
+   36  ls
+   37  cd git-practice
+   38  ls -lrtah
+   39  touch test.txt
+   40  echo "the contents" >> test.txt
+   41  touch file2.txt
+   42  echo "this is second file" >> file2.txt
+   43  git status
+   44  git add .
+   45  git status
+   46  git commit -m "added two more files"
+   47  git remote -v
+   48  git push https://github.com/pathakswapnil86/myTest.git master
+   49  git push git@github.com:pathakswapnil86/myTest.git master
+   50  history
+   51  git push git@github.com:pathakswapnil86/myTest.git HEAD:master
+   52  git push git@github.com:pathakswapnil86/myTest.git HEAD:master
+   53  git push origin HEAD:master
+   54  git status
+   55  git log
+   56  git clone https://github.com/microsoft/calculator.git
+   57  ls
+   58  cd calculator
+   59  ls
+   60  git status
+   61  touch newfile.txt
+   62  git status
+   63  git add .
+   64  git commit -m "calcualtor added"
+   65  git push origin HEAD:master
+   66  git remote -v
+   67  cd ..
+   68  git remote -v
+   69  cd ..
+   70  cd ..
+   71  ls
+   72  cd ..
+   73  cd ..
+   74  cd ..
+   75  cd /c/Users
+   76  cd document
+   77  cd documents
+   78  cd documents
+   79  ls
+   80  cd IT
+   81  ls
+   82  cd documents
+   83  mkdir NewFolder
+   84  cd NewFolder
+   85  git clone https://github.com/microsoft/calculator.git
+   86  ls
+   87  git status
+   88  cd calculator
+   89  git status
+   90  git log
+   91  git remote -v
+   92  git branch -a
+   93  git switch remotes/origin/HEAD
+   94  git fetch git@github.com:pathakswapnil86/calculator.git
+   95  git fetch https://github.com/pathakswapnil86/calculator.git
+   96  ls
+   97  cd ..
+   98  cd ..
+   99  git fetch https://github.com/pathakswapnil86/calculator.git
+  100  mkdir testfetch
+  101  cd testfetch
+  102  git fetch https://github.com/pathakswapnil86/calculator.git
+  103  git init
+  104  git fetch https://github.com/pathakswapnil86/calculator.git
+  105  ls
+  106  df -h
+  107  cd ..
+  108  git clone https://github.com/amod-mahajan/gitPullExample.git
+  109  git clone https://github.com/amod-mahajan/gitPullExample.git gitpullExample
+  110  git clone https://github.com/amod-mahajan/gitPullExample.git gitpullExample123
+  111  ls
+  112  cd gitpullExample123
+  113  ls
+  114  git log
+  115  ls
+  116  git pull origin HEAD:main
+  117  ls
+  118  ls
+  119  git status
+  120  git remote -v
+  121  git remote add origin https://github.com/pathakswapnil86/gitPullExample.git
+  122  git remote remove origin
+  123  ls
+  124  cd documents
+  125  ls
+  126  cd gitpullexample123
+  127  ls
+  128  git remote -v
+  129  git remote add origin https://github.com/pathakswapnil86/gitPullExample.git
+  130  git pull origin HEAD:main
+  131  ls
+  132  git status
+  133  git log
+  134  git log --graph
+  135  git diff HEAD
+  136  git diff FileA FileB
+  137  git diff FileA FileD
+  138  git diff FileA fileD
+  139  ls 
+  140  cat FileA
+  141  cat fileD
+  142  git diff FileA fileD
+  143  diff FileA fileD
+  144  ls 
+  145  cd documents
+  146  ls
+  147  cd gitpullExample123
+  148  git log
+  149  git log 324af6
+  150  git inspect
+  151  git inspect 324af6
+  152  git log --all
+  153  git log -3
+  154  git log --author=pathakswapnil86
+  155  git log --before 2.days.ago
+  156  git log --stat
+  157  git log --oneline
+  158  git status
+  159  touch abcd.txt
+  160  echo "dddddddddddddd" >> abcd.txt
+  161  git status
+  162  git reset abcd.txt
+  163  git status
+  164  git reset 3e5cc16
+  165  git status
+  166  git add .
+  167  git status
+  168  get reset FileB
+  169  git reset FileB
+  170  git status
+  171  git show 3e5cc16
+  172  git branch
+  173  git checkout main
+  174  git branch myBranch
+  175  git branch
+  176  git checkout myBranch
+  177  git branch
+  178  git branch br2
+  179  git branch
+  180  git checkout br2
+  181  git branch
+  182  git branch
+  183  ls
+  184  cd ..
+  185  ls
+  186  cd NewFolder
+  187  ls
+  188  git branch
+  189  pwd
+  190  cd calculator
+  191  ls
+  192  git branch
+  193  git branch newbranch
+  194  git remote -v
+  195  remove origin
+  196  git remove origin
+  197  git remote remove origin
+  198  git remote add origin https://github.com/pathakswapnil86/calculator.git
+  199  git remote -v
+  200  git branch
+  201  git branch -r
+  202  cd ..
+  203  cd ..
+  204  git clone https://github.com/pathakswapnil86/calculator.git
+  205  ls
+  206  cd calculator
+  207  git status
+  208  git branch
+  209  git branch -r
+  210  git branch swapnil-branch
+  211  git branch
+  212  git push origin swapnil-branch
+  213  git branch -r
+  214  git branch
+  215  git checkout swapnil-branch
+  216  touch newfile.txt
+  217  git status
+  218  git add .
+  219  git commit -m "added file"
+  220  git status
+  221  git push origin swapnil-branch
+  222  git checkout main
+  223  git merge swapnil-branch
+  224  git status
+  225  git branch
+  226  git push origin main
+  227  git checkout swapnil-branch
+  228  echo "abcdi" >> newfile.txt
+  229  git status
+  230  git checkout swapnil-branch
+  231  git push origin main
+  232  git add .
+  233  git commit -m "added new file content"
+  234  git push origin swapnil-branch
+  235  git checkout master
+  236  git checkout main
+  237  git merge swapnil-branch
+  238  ls
+  239  cd documents
+  240  ls
+  241  cd gitpullExample123
+  242  git status
+  243  history
+  244  history
+  245  touch githistory.txt
+  246  history >> githistory.txt
